@@ -36,7 +36,7 @@ steps:
   displayName: 'NuGet pack'
   inputs:
     command: pack
-    packagesToPack: AzureDevOpsCustomObjects.sln
+    packagesToPack: AzureDevOpsCustomObjects.csproj
     packDestination: $(Build.ArtifactStagingDirectory)
     versioningScheme: byEnvVar
     versionEnvVar: BuildVersion
