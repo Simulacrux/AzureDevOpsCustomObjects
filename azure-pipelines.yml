@@ -22,21 +22,21 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    solution: AzureDevOpsCustomObjects.csproj
+    solution: AzureDevOpsCustomObjects.sln
     restoreDirectory: packages
 
 - task: VSBuild@1
   inputs:
     msbuildArgs: '/p:PackageLocation="$(build.artifactStagingDirectory)"'
     platform: '$(buildPlatform)'
-    solution: AzureDevOpsCustomObjects.csproj
+    solution: AzureDevOpsCustomObjects.sln
     configuration: '$(buildConfiguration)'
 
 - task: NuGetCommand@2
   displayName: 'NuGet pack'
   inputs:
     command: pack
-    packagesToPack: AzureDevOpsCustomObjects.csproj
+    packagesToPack: AzureDevOpsCustomObjects.sln
     packDestination: $(Build.ArtifactStagingDirectory)
     versioningScheme: byEnvVar
     versionEnvVar: BuildVersion
