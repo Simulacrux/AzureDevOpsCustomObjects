@@ -12,7 +12,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   buildPlatform: 'Any CPU'
-  BuildVersion: 1.0.$(Build.BuildId)
+  BuildVersion: 0.1.$(Build.BuildId)
 
 steps:
 - task: NuGetToolInstaller@0
