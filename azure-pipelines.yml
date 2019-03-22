@@ -23,10 +23,11 @@ steps:
 - task: NuGetCommand@2
   inputs:
     solution: AzureDevOpsCustomObjects.csproj
+    restoreDirectory: packages
 
 - task: VSBuild@1
   inputs:
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
+    msbuildArgs: '/p:PackageLocation="$(build.artifactStagingDirectory)"'
     platform: '$(buildPlatform)'
     solution: AzureDevOpsCustomObjects.csproj
     configuration: '$(buildConfiguration)'
