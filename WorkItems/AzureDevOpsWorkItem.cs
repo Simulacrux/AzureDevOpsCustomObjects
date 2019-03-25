@@ -70,6 +70,9 @@ namespace AzureDevOpsCustomObjects.WorkItems
 
         public IList<AzureDevOpsWorkItemAttachment> Attachments { get; set; }
 
+
+        //TODO: System.Relatedlinks
+
         public void Add(JsonPatchOperation pathOperation)
         {
             _jsonPatchDocument.Add(pathOperation);
