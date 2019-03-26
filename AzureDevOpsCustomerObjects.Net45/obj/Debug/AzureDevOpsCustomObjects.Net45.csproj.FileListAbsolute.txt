@@ -1,0 +1,2 @@
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomerObjects.Net45\obj\Debug\AzureDevOpsCustomObjects.Net45.csproj.CoreCompileInputs.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomerObjects.Net45\obj\Debug\AzureDevOpsCustomObjects.Net45.csprojAssemblyReference.cache

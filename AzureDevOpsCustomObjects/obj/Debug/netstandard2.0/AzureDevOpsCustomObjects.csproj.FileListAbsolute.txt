@@ -1,0 +1,9 @@
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\obj\Debug\netstandard2.0\AzureDevOpsCustomObjects.csprojAssemblyReference.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\obj\Debug\netstandard2.0\AzureDevOpsCustomObjects.csproj.CoreCompileInputs.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\obj\Debug\netstandard2.0\AzureDevOpsCustomObjects.AssemblyInfoInputs.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\obj\Debug\netstandard2.0\AzureDevOpsCustomObjects.AssemblyInfo.cs
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\bin\Debug\netstandard2.0\AzureDevOpsCustomObjects.deps.json
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\bin\Debug\netstandard2.0\AzureDevOpsCustomObjects.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\bin\Debug\netstandard2.0\AzureDevOpsCustomObjects.pdb
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\obj\Debug\netstandard2.0\AzureDevOpsCustomObjects.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects\obj\Debug\netstandard2.0\AzureDevOpsCustomObjects.pdb
