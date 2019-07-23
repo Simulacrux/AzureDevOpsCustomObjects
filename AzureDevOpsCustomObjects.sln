@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsCustomObjects.Net45", "AzureDevOpsCustomerObjects.Net45\AzureDevOpsCustomObjects.Net45.csproj", "{84C87A17-ED7E-409A-8770-18194E73E3F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsCustomObjects", "AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.csproj", "{B2E37CA7-8ECA-42B6-993D-AF1DB7CD40BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDevOpsCustomObjects", "AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.csproj", "{B2E37CA7-8ECA-42B6-993D-AF1DB7CD40BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevOpsCustomObjects.Tests", "AzureDevOpsCustomObjects.Tests\AzureDevOpsCustomObjects.Tests.csproj", "{0D2C4CA2-8C3E-4856-B817-333F9A9D70EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B2E37CA7-8ECA-42B6-993D-AF1DB7CD40BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2E37CA7-8ECA-42B6-993D-AF1DB7CD40BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2E37CA7-8ECA-42B6-993D-AF1DB7CD40BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2C4CA2-8C3E-4856-B817-333F9A9D70EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2C4CA2-8C3E-4856-B817-333F9A9D70EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2C4CA2-8C3E-4856-B817-333F9A9D70EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2C4CA2-8C3E-4856-B817-333F9A9D70EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

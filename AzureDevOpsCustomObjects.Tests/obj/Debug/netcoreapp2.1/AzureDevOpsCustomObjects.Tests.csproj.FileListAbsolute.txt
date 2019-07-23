@@ -1,0 +1,17 @@
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.deps.json
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.runtimeconfig.json
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.runtimeconfig.dev.json
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.pdb
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\bin\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.pdb
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.csprojAssemblyReference.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.csproj.CoreCompileInputs.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.AssemblyInfoInputs.cache
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.AssemblyInfo.cs
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.csproj.CopyComplete
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.dll
+C:\Users\samsmit\source\repos\AzureDevOpsCustomObjects\AzureDevOpsCustomObjects.Tests\obj\Debug\netcoreapp2.1\AzureDevOpsCustomObjects.Tests.pdb
