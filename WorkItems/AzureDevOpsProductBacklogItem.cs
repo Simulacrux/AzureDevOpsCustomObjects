@@ -21,5 +21,8 @@ namespace AzureDevOpsCustomObjects.WorkItems
 
         [AzureDevOpsPath("/fields/Microsoft.VSTS.Scheduling.Effort")]
         public double? Effort { get; set; }
+
+        [AzureDevOpsPath("/fields/Microsoft.VSTS.Common.AcceptanceCriteria")]
+        public string AcceptanceCriteria { get; set; }
     }
 }
