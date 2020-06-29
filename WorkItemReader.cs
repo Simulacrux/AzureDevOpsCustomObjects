@@ -38,19 +38,51 @@ namespace AzureDevOpsCustomObjects
             {
                 Query = "Select * " +
                         "From WorkItems " +
-                        "Where [System.TeamProject] = '" + ProjectName + "' "
+                        $"Where[System.TeamProject] = '{this.ProjectName}' "
             };
 
-            var workItemQueryResult = WorkItemTrackingHttpClient.QueryByWiqlAsync(workItemQuery).Result;
+            var workItemQueryResult = this.WorkItemTrackingHttpClient.QueryByWiqlAsync(workItemQuery).Result;
 
             if (!workItemQueryResult.WorkItems.Any())
                 return new List<AzureDevOpsWorkItem>();
 
-            var matchingWorkItemIds = workItemQueryResult.WorkItems.Select(item => item.Id).ToArray();
+            var skip = 0;
+            const int batchSize = 150; // Maximum allowed numbers are 200
+            List<WorkItemReference> workItemRefs;
+            IList<WorkItem> workItems = new List<WorkItem>();
+            do
+            {
+                workItemRefs = workItemQueryResult.WorkItems.Skip(skip).Take(batchSize).ToList();
+                if (workItemRefs.Any())
+                {
+                    // get next batch of work items
+                    workItems.AddRange(this.WorkItemTrackingHttpClient.GetWorkItemsAsync(workItemRefs.Select(wir => wir.Id)).Result);
+                }
 
-            var workItems = WorkItemTrackingHttpClient.GetWorkItemsAsync(ProjectName, matchingWorkItemIds, expand : WorkItemExpand.Relations).Result;
+                skip += batchSize;
+            } while (workItemRefs.Count() == batchSize);
 
-            return workItems.Select(item => item.ToAzureDevOpsWorkItem());
+            return workItems.Select(item => item.ToAzureDevOpsWorkItem()).OfType<AzureDevOpsWorkItem>();
+        }
+
+        public AzureDevOpsWorkItem Read(int workItemId)
+        {
+            var workItemQuery = new Wiql()
+            {
+                Query = "Select * " +
+                        "From WorkItems " +
+                        $"Where [System.TeamProject] = '{this.ProjectName}' AND [System.Id] = {workItemId} "
+            };
+
+            var workItemQueryResult = this.WorkItemTrackingHttpClient.QueryByWiqlAsync(workItemQuery).Result;
+
+            if (!workItemQueryResult.WorkItems.Any())
+                return null;
+
+            
+            var workItem = this.WorkItemTrackingHttpClient.GetWorkItemsAsync(workItemQueryResult.WorkItems.Select(wir => wir.Id)).Result;
+            
+            return workItem.Single().ToAzureDevOpsWorkItem();
         }
     }
 }
