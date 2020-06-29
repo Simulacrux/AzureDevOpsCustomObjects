@@ -88,6 +88,9 @@ namespace AzureDevOpsCustomObjects.Extensions
                 case "Test Case":
                     azureDevOpsWorkItem = new AzureDevOpsTestCase();
                     break;
+                case "Ticket":
+                    azureDevOpsWorkItem = new AzureDevOpsCustomTicket();
+                    break;
                 case "Test Plan":
                 case "Test Suite":
                 case "Shared Parameter":

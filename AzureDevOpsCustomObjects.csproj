@@ -110,6 +110,7 @@
   <ItemGroup>
     <Compile Include="Extensions\WorkItemExtensions.cs" />
     <Compile Include="WorkItemReader.cs" />
+    <Compile Include="WorkItems\AzureDevOpsCustomTicket.cs" />
     <Compile Include="WorkItems\AzureDevOpsImpediment.cs" />
     <Compile Include="WorkItems\AzureDevOpsFeature.cs" />
     <Compile Include="WorkItems\AzureDevOpsEpic.cs" />

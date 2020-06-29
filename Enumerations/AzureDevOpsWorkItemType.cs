@@ -10,6 +10,7 @@ namespace AzureDevOpsCustomObjects.Enumerations
         [Description("Impediment")] Impediment,
         [Description("Product Backlog Item")] ProductBacklogItem,
         [Description("Task")] Task,
-        [Description("Test Case")] TestCase
+        [Description("Test Case")] TestCase,
+        [Description("Ticket")] Ticket
     }
 }
